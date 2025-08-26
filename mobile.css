@@ -1,0 +1,61 @@
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  header img.banner {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .navbar .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar .nav-item,
+  .navbar .id-name {
+    width: 100%;
+    text-align: center;
+    border: none !important;
+    padding: 10px 0;
+  }
+
+  .section-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .sixbox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .sixbox .box {
+    width: 100%;
+  }
+
+  .awards .award-grid,
+  .projects .project-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .site-footer {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .site-footer a {
+    display: block;
+    margin: 5px 0;
+  }
+}

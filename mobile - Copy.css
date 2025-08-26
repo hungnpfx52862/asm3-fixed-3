@@ -1,0 +1,44 @@
+/* Mobile Styles (max-width: 600px) */
+
+/* Projects: 1 cột */
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+/* Award section: mỗi dòng 1 chứng chỉ, căn giữa */
+.award-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.award-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+}
+
+/* Footer căn giữa theo cột */
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Navbar cho mobile: xếp cột */
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.container .centered {
+  font-size: 18px;
+}

@@ -1,0 +1,46 @@
+@media (min-width: 601px) and (max-width: 992px) {
+  body {
+    font-size: 15px;
+  }
+
+  header img.banner {
+    width: 100%;
+    height: auto;
+  }
+
+  .navbar .nav-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .section-info-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .section-info-wrapper > div {
+    flex: 1;
+  }
+
+  .sixbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .awards .award-grid,
+  .projects .project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .site-footer a {
+    margin: 0 10px;
+  }
+}
