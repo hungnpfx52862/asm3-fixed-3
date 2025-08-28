@@ -31,7 +31,16 @@
     gap: 20px;
     padding: 20px;
   }
+  .id-name-top {
+    display: none;
+  }
 
+  .id-name-bottom {
+    display: none;
+  }
+  .id-name {
+    flex: 1;
+  }
   .awards .award-grid,
   .projects .project-grid {
     display: grid;
