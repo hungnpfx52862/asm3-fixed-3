@@ -531,5 +531,5 @@ body {
 }
 
 .box.active .box-content {
-  max-height: 1000px; /* Đủ lớn để chứa nội dung */
+  max-height: 1000px;
 }
