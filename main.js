@@ -14,6 +14,25 @@ document.getElementById("email-submit").addEventListener("click", () => {
   }
 });
 
+const btnMore = document.querySelectorAll(".viewmoreBTN");
+const btnLess = document.querySelectorAll(".viewlessBTN");
+btnMore.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    btn.style.display = "none";
+    btn.classList.remove("active");
+    btn.nextElementSibling.style.display = "block";
+    btn.nextElementSibling.nextElementSibling.style.display = "block";
+  });
+});
+
+btnLess.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    btn.style.display = "none";
+    btn.previousElementSibling.style.display = "none";
+    btn.previousElementSibling.previousElementSibling.classList.add("active");
+  });
+});
+
 // Toggle box
 // document.querySelectorAll(".sixbox .box").forEach((box) => {
 //   box.addEventListener("click", () => {

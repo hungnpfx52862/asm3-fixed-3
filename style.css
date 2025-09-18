@@ -246,12 +246,11 @@ body {
   padding: 0 10px;
   margin: 20px auto;
   justify-content: center;
-  align-items: stretch;
+  align-items: flex-start;
 }
 
 .box {
   flex: 0 0 25%;
-  min-height: 320px;
   background: #fff;
   border: 2px solid #e2e2e2;
   font-weight: 500;
@@ -525,10 +524,31 @@ body {
 }
 /* Hiệu ứng ẩn/hiện box */
 .box-content {
+  display: none;
   overflow: hidden;
   transition: max-height 0.5s ease;
 }
 
 .box.active .box-content {
   max-height: 1000px;
+}
+.viewmoreBTN {
+  display: none !important;
+  background-color: #f2d668;
+  border: none;
+  border-radius: 15px;
+  width: 40%;
+  padding: 5px;
+}
+.box:hover .viewmoreBTN.active {
+  display: block !important;
+}
+.viewlessBTN {
+  display: none;
+  color: #ffffff;
+  background-color: #fc0000;
+  border: none;
+  border-radius: 15px;
+  width: 40%;
+  padding: 5px;
 }
