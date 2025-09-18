@@ -525,7 +525,6 @@ body {
 }
 /* Hiệu ứng ẩn/hiện box */
 .box-content {
-  max-height: 0;
   overflow: hidden;
   transition: max-height 0.5s ease;
 }
